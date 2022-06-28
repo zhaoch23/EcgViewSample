@@ -1,0 +1,3 @@
+[submodule "EcgViewSample"]
+	path = EcgViewSample
+	url = https://github.com/RainbowPuppeteer/EcgViewSample.git
