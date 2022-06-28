@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1690857489/BloodForm_V2.iml" filepath="$PROJECT_DIR$/.idea/modules/-1690857489/BloodForm_V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BloodForm_V2.ECGView.iml" filepath="$PROJECT_DIR$/.idea/modules/BloodForm_V2.ECGView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1616458554/BloodForm_V2.FastBleLib.iml" filepath="$PROJECT_DIR$/.idea/modules/-1616458554/BloodForm_V2.FastBleLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/337041409/BloodForm_V2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/337041409/BloodForm_V2.app.iml" />
+    </modules>
+  </component>
+</project>

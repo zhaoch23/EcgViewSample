@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/src/main/res"/><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/build/generated/res/rs/debug"/><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/src/main/res"><file path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/src/main/res/values/colors.xml" qualifiers=""><color name="grid_color">#F08080</color><color name="large_grid_color">#FF5733</color></file><file path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/src/main/res/values/attr.xml" qualifiers=""><declare-styleable name="ECGView">
+
+        <attr name="title"/>
+        <attr format="enum" name="titleAlignment">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+
+        <attr format="enum" name="measureMode">
+            <enum name="keepGridSize" value="0"/>
+            <enum name="keepParentSize" value="1"/>
+        </attr>
+
+        <attr format="color|integer" name="graphBackgroundColor"/>
+        <attr format="color|integer" name="gridColor"/>
+        <attr format="color|integer" name="largeGridColor"/>
+        <attr format="color|integer" name="lineColor"/>
+        <attr format="color|integer" name="titleColor"/>
+        <attr format="color|integer" name="labelColor"/>
+
+        <attr format="dimension" name="titleSize"/>
+        <attr format="dimension" name="labelSize"/>
+        <attr format="dimension" name="lineSize"/>
+        <attr format="dimension" name="gridBoarderSize"/>
+        <attr format="dimension" name="largeGridBoarderSize"/>
+        <attr format="dimension" name="titlePadding"/>
+        <attr format="dimension" name="labelPadding"/>
+        <attr format="dimension" name="graphPadding"/>
+
+        <attr format="dimension" name="gridWidth"/>
+        <attr format="dimension" name="gridHeight"/>
+        <attr format="dimension" name="largeGridWidth"/>
+        <attr format="dimension" name="largeGridHeight"/>
+
+        
+        <attr format="integer" name="YLargeGridNumbers"/>
+        
+        <attr format="integer" name="XLargeGridNumbers"/>
+
+        
+        <attr format="integer" name="YGridNumbers"/>
+        
+        <attr format="integer" name="XGridNumbers"/>
+
+        <attr format="boolean" name="showTitle"/>
+        <attr format="boolean" name="showLargeGrids"/>
+        <attr format="boolean" name="showGrids"/>
+
+        <attr format="boolean" name="showVertical"/>
+        <attr format="boolean" name="showHorizontal"/>
+
+        
+        <attr format="enum" name="YLabelPosition">
+            <enum name="none" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        
+        <attr format="enum" name="XLabelPosition">
+            <enum name="none" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+        
+        <attr format="enum" name="lineGravity">
+            <enum name="bottom" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+        
+        <attr format="float" name="customXIntervalPerGrid"/>
+        
+        <attr format="float" name="customYIntervalPerGrid"/>
+        
+        <attr format="integer" name="customGridNumbersPerLargeGrid"/>
+
+    </declare-styleable></file></source><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/build/generated/res/rs/debug"/><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/chengzongzhao/AndroidStudioProjects/ECGViewSample/ECGView/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ECGView">
+
+        <attr name="title"/>
+        <attr format="enum" name="titleAlignment">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+
+        <attr format="enum" name="measureMode">
+            <enum name="keepGridSize" value="0"/>
+            <enum name="keepParentSize" value="1"/>
+        </attr>
+
+        <attr format="color|integer" name="graphBackgroundColor"/>
+        <attr format="color|integer" name="gridColor"/>
+        <attr format="color|integer" name="largeGridColor"/>
+        <attr format="color|integer" name="lineColor"/>
+        <attr format="color|integer" name="titleColor"/>
+        <attr format="color|integer" name="labelColor"/>
+
+        <attr format="dimension" name="titleSize"/>
+        <attr format="dimension" name="labelSize"/>
+        <attr format="dimension" name="lineSize"/>
+        <attr format="dimension" name="gridBoarderSize"/>
+        <attr format="dimension" name="largeGridBoarderSize"/>
+        <attr format="dimension" name="titlePadding"/>
+        <attr format="dimension" name="labelPadding"/>
+        <attr format="dimension" name="graphPadding"/>
+
+        <attr format="dimension" name="gridWidth"/>
+        <attr format="dimension" name="gridHeight"/>
+        <attr format="dimension" name="largeGridWidth"/>
+        <attr format="dimension" name="largeGridHeight"/>
+
+        
+        <attr format="integer" name="YLargeGridNumbers"/>
+        
+        <attr format="integer" name="XLargeGridNumbers"/>
+
+        
+        <attr format="integer" name="YGridNumbers"/>
+        
+        <attr format="integer" name="XGridNumbers"/>
+
+        <attr format="boolean" name="showTitle"/>
+        <attr format="boolean" name="showLargeGrids"/>
+        <attr format="boolean" name="showGrids"/>
+
+        <attr format="boolean" name="showVertical"/>
+        <attr format="boolean" name="showHorizontal"/>
+
+        
+        <attr format="enum" name="YLabelPosition">
+            <enum name="none" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        
+        <attr format="enum" name="XLabelPosition">
+            <enum name="none" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+        
+        <attr format="enum" name="lineGravity">
+            <enum name="bottom" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+        
+        <attr format="float" name="customXIntervalPerGrid"/>
+        
+        <attr format="float" name="customYIntervalPerGrid"/>
+        
+        <attr format="integer" name="customGridNumbersPerLargeGrid"/>
+
+    </declare-styleable></configuration></mergedItems></merger>

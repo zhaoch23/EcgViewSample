@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grid_color">#F08080</color>
+    <color name="large_grid_color">#FF5733</color>
+    <declare-styleable name="ECGView">
+
+        <attr name="title"/>
+        <attr format="enum" name="titleAlignment">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+
+        <attr format="enum" name="measureMode">
+            <enum name="keepGridSize" value="0"/>
+            <enum name="keepParentSize" value="1"/>
+        </attr>
+
+        <attr format="color|integer" name="graphBackgroundColor"/>
+        <attr format="color|integer" name="gridColor"/>
+        <attr format="color|integer" name="largeGridColor"/>
+        <attr format="color|integer" name="lineColor"/>
+        <attr format="color|integer" name="titleColor"/>
+        <attr format="color|integer" name="labelColor"/>
+
+        <attr format="dimension" name="titleSize"/>
+        <attr format="dimension" name="labelSize"/>
+        <attr format="dimension" name="lineSize"/>
+        <attr format="dimension" name="gridBoarderSize"/>
+        <attr format="dimension" name="largeGridBoarderSize"/>
+        <attr format="dimension" name="titlePadding"/>
+        <attr format="dimension" name="labelPadding"/>
+        <attr format="dimension" name="graphPadding"/>
+
+        <attr format="dimension" name="gridWidth"/>
+        <attr format="dimension" name="gridHeight"/>
+        <attr format="dimension" name="largeGridWidth"/>
+        <attr format="dimension" name="largeGridHeight"/>
+
+        <!-- 0.5mV per largeGrid(5 grids), high priority -->
+        <attr format="integer" name="YLargeGridNumbers"/>
+        <!-- 0.2sec per largeGrid(5 grids), high priority -->
+        <attr format="integer" name="XLargeGridNumbers"/>
+
+        <!-- 0.1mV per grid-->
+        <attr format="integer" name="YGridNumbers"/>
+        <!-- 0.04sec per gird -->
+        <attr format="integer" name="XGridNumbers"/>
+
+        <attr format="boolean" name="showTitle"/>
+        <attr format="boolean" name="showLargeGrids"/>
+        <attr format="boolean" name="showGrids"/>
+
+        <attr format="boolean" name="showVertical"/>
+        <attr format="boolean" name="showHorizontal"/>
+
+        <!-- y interval label position -->
+        <attr format="enum" name="YLabelPosition">
+            <enum name="none" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <!-- x interval label position -->
+        <attr format="enum" name="XLabelPosition">
+            <enum name="none" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+        <!-- ecg line gravity -->
+        <attr format="enum" name="lineGravity">
+            <enum name="bottom" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+        <!-- custom mV per grid, affects large grids simultaneously -->
+        <attr format="float" name="customXIntervalPerGrid"/>
+        <!-- custom sec per grid, affects large grids simultaneously -->
+        <attr format="float" name="customYIntervalPerGrid"/>
+        <!-- custom number of grids per large grid -->
+        <attr format="integer" name="customGridNumbersPerLargeGrid"/>
+
+    </declare-styleable>
+</resources>
