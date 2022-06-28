@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="@string/graph_settings">
+
+        <EditTextPreference
+            app:key="graph_title"
+            app:title="@string/graph_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:title="@string/x_axis"
+            app:entries="@array/x_label_entries"
+            app:entryValues="@array/x_label_values"
+            app:key="x_label"
+            app:defaultValue="None"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:title="@string/y_axis"
+            app:entries="@array/y_label_entries"
+            app:entryValues="@array/y_label_values"
+            app:key="y_label"
+            app:defaultValue="None"
+            app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="hide_large_grids"
+            app:title="@string/hide_large_grids" />
+
+        <SwitchPreferenceCompat
+            app:key="hide_small_grids"
+            app:title="@string/hide_small_grids" />
+
+        <SwitchPreferenceCompat
+            app:key="hide_vertical"
+            app:title="@string/hide_vertical" />
+
+        <SwitchPreferenceCompat
+            app:key="hide_horizontal"
+            app:title="@string/hide_horizontal" />
+
+        <SwitchPreferenceCompat
+            app:key="simulation_data"
+            app:title="@string/simulation_data" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

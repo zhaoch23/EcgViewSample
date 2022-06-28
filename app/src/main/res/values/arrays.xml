@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="x_label_entries">
+        <item>None</item>
+        <item>Bottom</item>
+        <item>Top</item>
+    </string-array>
+
+    <string-array name="x_label_values">
+        <item>None</item>
+        <item>Bottom</item>
+        <item>Top</item>
+    </string-array>
+
+    <string-array name="y_label_entries">
+        <item>None</item>
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+
+    <string-array name="y_label_values">
+        <item>None</item>
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+</resources>

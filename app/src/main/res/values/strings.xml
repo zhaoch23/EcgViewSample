@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ECGViewSample</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="graph_title">Graph Title</string>
+    <string name="graph_settings">Graph Settings</string>
+    <string name="x_axis">Show x-Label</string>
+    <string name="y_axis">Show y-Label</string>
+    <string name="hide_large_grids">Hide Large Grids</string>
+    <string name="hide_small_grids">Hide Small Grids</string>
+    <string name="hide_vertical">Hide Vertical</string>
+    <string name="hide_horizontal">Hide Horizontal</string>
+    <string name="simulation_data">Simulation Data</string>
+</resources>
